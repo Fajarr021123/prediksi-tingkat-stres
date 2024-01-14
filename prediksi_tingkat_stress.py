@@ -57,13 +57,8 @@ def predict_stress(gejala_input):
     return max(result, key=result.get), result#Mengembalikan jenis stres dengan probabilitas tertinggi dan semua probabilitas.
 
 # Streamlit App
-st.title('Aplikasi Klasifikasi Tingkat Stres Naive Bayes')
-st.title('Nama Kelompok:')
-st.title('5210411260 Aldianto Dickyu Septian')
-st.title('5210411262 Yusuf Ashari')
-st.title('5210411270 Fajar Ramadhan')
-st.title('5210411276 Naninda Uswatun Hasanah')
-st.title('5210411281 Rayhan Dzikri Fauzi')
+st.title('Aplikasi Prediksi Tingkat Stres Naive Bayes')
+
 
 st.write('Masukkan gejala yang dialami oleh pasien untuk mendapatkan prediksi tingkat stres.')
 
